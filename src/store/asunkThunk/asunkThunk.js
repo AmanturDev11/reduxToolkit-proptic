@@ -1,6 +1,9 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import { BASE_URL } from "../../utils/constants";
 
+// const url = import.meta.env.VITE_BACKEND_URL;
+
+
 export const getRequestTodo = createAsyncThunk(
 	"todo/getRequestTodo",
 	async (_, { rejectWithValue }) => {
