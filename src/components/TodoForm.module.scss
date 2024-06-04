@@ -1,0 +1,22 @@
+.TodoForm {
+	.content {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		// background-color: rgb(120, 21, 120);
+		.cardsContent {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			width: 75%;
+			height: 100%;
+			form {
+				input {
+					// background-color: #fff;
+				}
+			}
+		}
+	}
+}
